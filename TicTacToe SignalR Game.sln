@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1062
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Server", "TicTacToe.Server\TicTacToe.Server.csproj", "{DF6C70E4-ADE0-4CDB-9A25-979782650A08}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Application", "TicTacToe.Server\TicTacToe.Application.csproj", "{DF6C70E4-ADE0-4CDB-9A25-979782650A08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D5524395-987B-45D9-AAE4-19ABB81FDCB3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E09CF784-BE6E-422E-8EA3-3E3A068D803D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{48883327-E313-4FAA-9E3A-A53180C63E43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{BD02CE5F-7B12-4D41-BB99-20590B4D8020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +23,19 @@ Global
 		{DF6C70E4-ADE0-4CDB-9A25-979782650A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF6C70E4-ADE0-4CDB-9A25-979782650A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF6C70E4-ADE0-4CDB-9A25-979782650A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD02CE5F-7B12-4D41-BB99-20590B4D8020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD02CE5F-7B12-4D41-BB99-20590B4D8020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD02CE5F-7B12-4D41-BB99-20590B4D8020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD02CE5F-7B12-4D41-BB99-20590B4D8020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF6C70E4-ADE0-4CDB-9A25-979782650A08} = {E09CF784-BE6E-422E-8EA3-3E3A068D803D}
+		{E09CF784-BE6E-422E-8EA3-3E3A068D803D} = {D5524395-987B-45D9-AAE4-19ABB81FDCB3}
+		{48883327-E313-4FAA-9E3A-A53180C63E43} = {D5524395-987B-45D9-AAE4-19ABB81FDCB3}
+		{BD02CE5F-7B12-4D41-BB99-20590B4D8020} = {48883327-E313-4FAA-9E3A-A53180C63E43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E77C5151-F1BD-4E7A-9006-7877B925CC81}
