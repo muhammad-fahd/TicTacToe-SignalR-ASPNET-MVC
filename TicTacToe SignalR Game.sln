@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E09CF784-B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{48883327-E313-4FAA-9E3A-A53180C63E43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{BD02CE5F-7B12-4D41-BB99-20590B4D8020}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe.Server", "TicTacToe\TicTacToe.Server.csproj", "{BD02CE5F-7B12-4D41-BB99-20590B4D8020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
