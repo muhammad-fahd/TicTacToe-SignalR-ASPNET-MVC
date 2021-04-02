@@ -41,7 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Client.cs" />
+    <Compile Include="Model\GameInfo.cs" />
+    <Compile Include="Model\TicTacToe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\ITicTacToeService.cs" />
+    <Compile Include="Service\TicTacToeService.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
